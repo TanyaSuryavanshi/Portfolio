@@ -1,0 +1,110 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: rgb(0, 0, 0);
+  color: white;
+}
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 60px;
+  background-color: rgba(0, 0, 255, 0.251);
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+}
+nav ul li {
+  list-style: none;
+  margin: 0 23px;
+}
+nav ul li a {
+  text-decoration: none;
+  color: white;
+}
+nav ul li a:hover {
+  color: brown;
+  font-size: 1.01rem;
+}
+.second-section div ul li a {
+  text-decoration: none;
+  color: blueviolet;
+}
+.second-section div ul li a:hover {
+  color: brown;
+  font-size: 1.5rem;
+}
+.second-section div a {
+  text-decoration: none;
+  color: blueviolet;
+}
+.second-section div a:hover {
+  color: brown;
+  font-size: 1.5rem;
+}
+.left {
+  font-size: 1.5rem;
+}
+.first-section {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 50px 0;
+}
+.first-section div {
+  width: 35%;
+}
+.left-section {
+  justify-content: space-evenly;
+  font-size: 2rem;
+  margin-top: 10px;
+  width: 60px;
+}
+.left-section .buttons {
+  width: 60%;
+  padding: 23px 0;
+  justify-content: space-evenly;
+}
+.left-section .btn {
+  padding: 12px;
+  background-color: rgba(0, 0, 255, 0.224);
+  color: aliceblue;
+  border: 2px solid white;
+  border-radius: 6px;
+  cursor: pointer;
+}
+.right-section img {
+  width: 120%;
+  height: 120%;
+  margin-top: -50px;
+}
+
+.name {
+  color: rgb(158, 84, 226);
+}
+#element {
+  color: rgb(158, 84, 226);
+}
+
+main hr {
+  background: blue;
+  border: 0;
+  height: 1.2px;
+  margin: 40px 80px;
+}
+
+.second-section {
+  max-width: 80vw;
+  margin: auto;
+  height: 200vh;
+}
+.second-section div {
+  width: 35%;
+}
+.second-section h1 {
+  font-size: 1.9rem;
+}
