@@ -1,3 +1,3 @@
 # Portfolio
 My portfolio website
-https://github.com/TanyaSuryavanshi/Portfolio.git
+https://tanyasuryavanshi.github.io/Portfolio/
